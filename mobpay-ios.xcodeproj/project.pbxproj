@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D76EE841E00B188297F1FAE /* Pods_mobpay_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6C699601A5D605DCA14079 /* Pods_mobpay_iosTests.framework */; };
+		08C89F0CCEE9D1EEBED94AE7 /* Pods_mobpay_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85271DEA0720C5BE9C7B3E31 /* Pods_mobpay_ios.framework */; };
 		1EE60692297FB4380083B9D4 /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE60691297FB4380083B9D4 /* Checkout.swift */; };
 		3B498A5B22C6010300137324 /* HeaderGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B498A5A22C6010300137324 /* HeaderGeneration.swift */; };
 		3B6E660A229D52C20076822B /* Mobpay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E6609229D52C20076822B /* Mobpay.swift */; };
@@ -17,10 +17,10 @@
 		3B982CF2229D4AFE00BA2457 /* mobpay_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B982CE8229D4AFE00BA2457 /* mobpay_ios.framework */; };
 		3B982CF7229D4AFE00BA2457 /* mobpay_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B982CF6229D4AFE00BA2457 /* mobpay_iosTests.swift */; };
 		3B982CF9229D4AFE00BA2457 /* mobpay_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B982CEB229D4AFE00BA2457 /* mobpay_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B9F4ADC22B8C2BE00E96384 /* Pods_mobpay_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ED8EFCD6897591D58DFAF7 /* Pods_mobpay_ios.framework */; };
 		3BB20EB1230297AD0088C5DD /* ThreeDSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB20EB0230297AD0088C5DD /* ThreeDSWebView.swift */; };
 		3BB8466A22A0343E001C80AD /* CardToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8466922A0343E001C80AD /* CardToken.swift */; };
 		6DB661922B1E618800865907 /* Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB661912B1E618800865907 /* Customization.swift */; };
+		D13FA17B7842772B40FED03F /* Pods_mobpay_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26248240CEAD826E698AE0CB /* Pods_mobpay_iosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08539BBBFC786E9A79FA795F /* Pods-mobpay-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobpay-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-mobpay-iosTests/Pods-mobpay-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1EE60691297FB4380083B9D4 /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
-		1F1D28852EAB8886F6DC6758 /* Pods-mobpay-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobpay-ios.release.xcconfig"; path = "Target Support Files/Pods-mobpay-ios/Pods-mobpay-ios.release.xcconfig"; sourceTree = "<group>"; };
-		2D39E0B4C29A4573663675DD /* Pods-mobpay-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobpay-iosTests.release.xcconfig"; path = "Target Support Files/Pods-mobpay-iosTests/Pods-mobpay-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		23BB12BC128431BB0B3D0C15 /* Pods-mobpay-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobpay-iosTests.release.xcconfig"; path = "Target Support Files/Pods-mobpay-iosTests/Pods-mobpay-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		26248240CEAD826E698AE0CB /* Pods_mobpay_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobpay_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B498A5A22C6010300137324 /* HeaderGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderGeneration.swift; sourceTree = "<group>"; };
 		3B6E6609229D52C20076822B /* Mobpay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobpay.swift; sourceTree = "<group>"; };
 		3B6E660D229D53310076822B /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
@@ -53,11 +54,10 @@
 		3B9F4AD622B8BFAE00E96384 /* SwiftyRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyRSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB20EB0230297AD0088C5DD /* ThreeDSWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDSWebView.swift; sourceTree = "<group>"; };
 		3BB8466922A0343E001C80AD /* CardToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardToken.swift; sourceTree = "<group>"; };
-		47ED8EFCD6897591D58DFAF7 /* Pods_mobpay_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobpay_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F6C699601A5D605DCA14079 /* Pods_mobpay_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobpay_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6663B78C237C36C680B53368 /* Pods-mobpay-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobpay-ios.release.xcconfig"; path = "Target Support Files/Pods-mobpay-ios/Pods-mobpay-ios.release.xcconfig"; sourceTree = "<group>"; };
 		6DB661912B1E618800865907 /* Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customization.swift; sourceTree = "<group>"; };
-		B139FE955CA6594D537D31EC /* Pods-mobpay-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobpay-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-mobpay-iosTests/Pods-mobpay-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1B304F4916A35EF2E4F96A7 /* Pods-mobpay-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobpay-ios.debug.xcconfig"; path = "Target Support Files/Pods-mobpay-ios/Pods-mobpay-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		85271DEA0720C5BE9C7B3E31 /* Pods_mobpay_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobpay_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DC3F5A5D5DC53E5EFD09AD /* Pods-mobpay-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobpay-ios.debug.xcconfig"; path = "Target Support Files/Pods-mobpay-ios/Pods-mobpay-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B9F4ADC22B8C2BE00E96384 /* Pods_mobpay_ios.framework in Frameworks */,
+				08C89F0CCEE9D1EEBED94AE7 /* Pods_mobpay_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B982CF2229D4AFE00BA2457 /* mobpay_ios.framework in Frameworks */,
-				1D76EE841E00B188297F1FAE /* Pods_mobpay_iosTests.framework in Frameworks */,
+				D13FA17B7842772B40FED03F /* Pods_mobpay_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +84,10 @@
 		33B067B141C63AC222F42AAE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1B304F4916A35EF2E4F96A7 /* Pods-mobpay-ios.debug.xcconfig */,
-				1F1D28852EAB8886F6DC6758 /* Pods-mobpay-ios.release.xcconfig */,
-				B139FE955CA6594D537D31EC /* Pods-mobpay-iosTests.debug.xcconfig */,
-				2D39E0B4C29A4573663675DD /* Pods-mobpay-iosTests.release.xcconfig */,
+				B2DC3F5A5D5DC53E5EFD09AD /* Pods-mobpay-ios.debug.xcconfig */,
+				6663B78C237C36C680B53368 /* Pods-mobpay-ios.release.xcconfig */,
+				08539BBBFC786E9A79FA795F /* Pods-mobpay-iosTests.debug.xcconfig */,
+				23BB12BC128431BB0B3D0C15 /* Pods-mobpay-iosTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -169,8 +169,8 @@
 				3B9F4AD622B8BFAE00E96384 /* SwiftyRSA.framework */,
 				3B9F4AD422B8BFAA00E96384 /* PercentEncoder.framework */,
 				3B9F4AD222B8BFA400E96384 /* CryptoSwift.framework */,
-				47ED8EFCD6897591D58DFAF7 /* Pods_mobpay_ios.framework */,
-				5F6C699601A5D605DCA14079 /* Pods_mobpay_iosTests.framework */,
+				85271DEA0720C5BE9C7B3E31 /* Pods_mobpay_ios.framework */,
+				26248240CEAD826E698AE0CB /* Pods_mobpay_iosTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B982CFC229D4AFE00BA2457 /* Build configuration list for PBXNativeTarget "mobpay-ios" */;
 			buildPhases = (
-				D3B841488C6BC02166B0CE87 /* [CP] Check Pods Manifest.lock */,
+				01000800093E2C314261AA39 /* [CP] Check Pods Manifest.lock */,
 				3B982CE3229D4AFE00BA2457 /* Headers */,
 				3B982CE4229D4AFE00BA2457 /* Sources */,
 				3B982CE5229D4AFE00BA2457 /* Frameworks */,
@@ -212,7 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B982CFF229D4AFE00BA2457 /* Build configuration list for PBXNativeTarget "mobpay-iosTests" */;
 			buildPhases = (
-				6781A41AD5592AAD172C9E37 /* [CP] Check Pods Manifest.lock */,
+				07F683A55658DB24340F1AE5 /* [CP] Check Pods Manifest.lock */,
 				3B982CED229D4AFE00BA2457 /* Sources */,
 				3B982CEE229D4AFE00BA2457 /* Frameworks */,
 				3B982CEF229D4AFE00BA2457 /* Resources */,
@@ -282,29 +282,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6781A41AD5592AAD172C9E37 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mobpay-iosTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3B841488C6BC02166B0CE87 /* [CP] Check Pods Manifest.lock */ = {
+		01000800093E2C314261AA39 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,6 +298,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-mobpay-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07F683A55658DB24340F1AE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobpay-iosTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -488,7 +488,7 @@
 		};
 		3B982CFD229D4AFE00BA2457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1B304F4916A35EF2E4F96A7 /* Pods-mobpay-ios.debug.xcconfig */;
+			baseConfigurationReference = B2DC3F5A5D5DC53E5EFD09AD /* Pods-mobpay-ios.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -517,7 +517,7 @@
 		};
 		3B982CFE229D4AFE00BA2457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F1D28852EAB8886F6DC6758 /* Pods-mobpay-ios.release.xcconfig */;
+			baseConfigurationReference = 6663B78C237C36C680B53368 /* Pods-mobpay-ios.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -545,7 +545,7 @@
 		};
 		3B982D00229D4AFE00BA2457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B139FE955CA6594D537D31EC /* Pods-mobpay-iosTests.debug.xcconfig */;
+			baseConfigurationReference = 08539BBBFC786E9A79FA795F /* Pods-mobpay-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,7 +565,7 @@
 		};
 		3B982D01229D4AFE00BA2457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D39E0B4C29A4573663675DD /* Pods-mobpay-iosTests.release.xcconfig */;
+			baseConfigurationReference = 23BB12BC128431BB0B3D0C15 /* Pods-mobpay-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

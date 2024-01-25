@@ -4,11 +4,11 @@ platform :ios, '13.0'
 target 'mobpay-ios' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-   pod 'SwiftyRSA', '1.5.0'
-   pod 'CryptoSwift', '1.0.0'
+   pod 'SwiftyRSA', '1.7.0'
+   pod 'CryptoSwift', '1.7.0'
    pod 'PercentEncoder','1.2.1'
-   pod 'CocoaMQTT','2.1.0'
-   pod 'Alamofire','5.0.5'
+   pod 'CocoaMQTT/WebSockets', :git => 'https://github.com/emqx/CocoaMQTT.git', :branch => 'master'
+   pod 'Alamofire','5.10.2'
 
   # Pods for mobpay-ios
 
@@ -17,4 +17,12 @@ target 'mobpay-ios' do
     # Pods for testing
   end
 
+  
+end
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    end
+  end
 end
