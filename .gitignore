@@ -1,1 +1,4 @@
 Pods
+# Xcode user state
+xcuserdata/
+*.xcuserstate
