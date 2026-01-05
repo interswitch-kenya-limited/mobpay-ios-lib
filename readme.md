@@ -79,4 +79,4 @@ To confirm if a mobile money payment was successful or not:
 ```
 ## Source code
 
-Visit https://github.com/interswitch-kenya-limited/mobpay-ios-example to get the source code and releases of this project if you want to try a manual integration process.
+Visit https://github.com/Immanuel007/mobpay-ios-example to get the source code and releases of this project if you want to try a manual integration process.
