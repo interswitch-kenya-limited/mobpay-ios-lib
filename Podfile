@@ -7,8 +7,9 @@ target 'mobpay-ios' do
    pod 'SwiftyRSA', '1.7.0'
    pod 'CryptoSwift', '1.7.0'
    pod 'PercentEncoder','1.2.1'
-   pod 'CocoaMQTT/WebSockets', :git => 'https://github.com/emqx/CocoaMQTT.git', :branch => 'master'
+   pod 'CocoaMQTT/WebSockets', :git => 'https://github.com/emqx/CocoaMQTT.git', :tag => '2.1.7'
    pod 'Alamofire','5.10.2'
+   pod 'Starscream', '3.1.1'
 
   # Pods for mobpay-ios
 
