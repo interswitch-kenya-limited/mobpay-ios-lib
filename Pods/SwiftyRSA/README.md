@@ -1,7 +1,7 @@
 SwiftyRSA
 =========
 
-**Maintainer(s):** [@ldiqual](https://github.com/ldiqual)
+**Maintainer(s):** [@ikeith](https://github.com/ikeith)
 
 [![](https://img.shields.io/cocoapods/v/SwiftyRSA.svg)](https://cocoapods.org/pods/SwiftyRSA)
 ![](https://img.shields.io/badge/carthage-compatible-brightgreen.svg)
@@ -16,7 +16,9 @@ SwiftyRSA is used in the [Scoop](https://www.takescoop.com/) [iOS app](https://i
 Installation
 ------------
 
-### Swift 3.2 / 4.0+
+### Swift 5.0+
+
+SwiftyRSA uses Swift 5.0 and requires Xcode 10.2+.
 
 With Cocoapods:
 
@@ -28,14 +30,6 @@ With Carthage:
 
 ```
 github "TakeScoop/SwiftyRSA"
-```
-
-### Swift 2.3
-
-The `swift-2.3` branch is built out of SwiftRSA 0.4.0 and is not actively maintained. If you'd like to use the latest features of SwiftyRSA, please use swift 3.0.
-
-```
-pod 'SwiftyRSA', :git => 'git@github.com:TakeScoop/SwiftyRSA.git', :branch => 'swift-2.3'
 ```
 
 ### Objective-C
@@ -181,6 +175,21 @@ let data = try key.data()
 let reference = key.reference
 let originalData = key.originalData
 ```
+
+### Use X.509 certificate 
+SwiftyRSA supports X.509 certificate for public keys. SwiftyRSA can add the X.509 header to a headerless public key, or on the contrary  strip it to get a key without a header.
+#### Add an X.509 header to a public key 
+```swift
+let publicKey = PublicKey(data: data)
+let publicKeyData = try publicKey.data()
+let publicKey_with_X509_header = try SwiftyRSA.prependX509KeyHeader(keyData: publicKeyData)
+```
+#### Strip the X.509 header from a public key 
+```swift
+let publicKey_headerLess: Data = try SwiftyRSA.stripKeyHeader(keyData: publicKey_with_X509_header)
+```
+
+**Warning** : Storing  (with SwiftyRSA's methods) or creating a ```PublicKey``` instance will automatically strip the header from the key. For more info, see *Under the hood* above.
 
 Create public and private RSA keys
 ----------------------------------
