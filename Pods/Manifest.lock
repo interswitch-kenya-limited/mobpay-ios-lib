@@ -1,21 +1,21 @@
 PODS:
   - Alamofire (5.10.2)
-  - CocoaMQTT/Core (2.1.8):
+  - CocoaMQTT/Core (2.1.7):
     - MqttCocoaAsyncSocket (~> 1.0.8)
-  - CocoaMQTT/WebSockets (2.1.8):
+  - CocoaMQTT/WebSockets (2.1.7):
     - CocoaMQTT/Core
-    - Starscream (= 4.0.4)
+    - Starscream (~> 4.0.6)
   - CryptoSwift (1.7.0)
   - MqttCocoaAsyncSocket (1.0.8)
   - PercentEncoder (1.2.1)
-  - Starscream (4.0.4)
+  - Starscream (4.0.8)
   - SwiftyRSA (1.7.0):
     - SwiftyRSA/ObjC (= 1.7.0)
   - SwiftyRSA/ObjC (1.7.0)
 
 DEPENDENCIES:
   - Alamofire (= 5.10.2)
-  - CocoaMQTT/WebSockets (from `https://github.com/emqx/CocoaMQTT.git`, branch `master`)
+  - CocoaMQTT/WebSockets (from `https://github.com/emqx/CocoaMQTT.git`, tag `2.1.7`)
   - CryptoSwift (= 1.7.0)
   - PercentEncoder (= 1.2.1)
   - SwiftyRSA (= 1.7.0)
@@ -31,23 +31,23 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   CocoaMQTT:
-    :branch: master
     :git: https://github.com/emqx/CocoaMQTT.git
+    :tag: 2.1.7
 
 CHECKOUT OPTIONS:
   CocoaMQTT:
-    :commit: f183e8d03eb4f8c050d6b698417fa815012b8746
     :git: https://github.com/emqx/CocoaMQTT.git
+    :tag: 2.1.7
 
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
-  CocoaMQTT: fbb38c69c6c8a26123b4b4ed4a77bc9bf55d1587
+  CocoaMQTT: bce8fe6d2088cb70c476df8886389a8246285deb
   CryptoSwift: e71dbe5bbb7a945e365d4b9034dbccf28d033a8f
   MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
   PercentEncoder: 40a4d727ebeda2a6ec77bf34fa620cc4b5845488
-  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
   SwiftyRSA: 8c6dd1ea7db1b8dc4fb517a202f88bb1354bc2c6
 
-PODFILE CHECKSUM: 002bd7410bc9142df48a875c08d1f812fb3fcf21
+PODFILE CHECKSUM: dab868db9b056d6224c5df8520f196ac53428d73
 
 COCOAPODS: 1.16.2
